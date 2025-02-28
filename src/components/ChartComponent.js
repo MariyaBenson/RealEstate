@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Bar } from "react-chartjs-2";
-import Chart from "chart.js/auto";
 
 const ChartComponent = ({ actualPrices, predictedPrices, labels }) => {
   const [chartData, setChartData] = useState({
